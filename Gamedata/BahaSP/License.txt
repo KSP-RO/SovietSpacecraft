@@ -1,0 +1,10 @@
+This mod for Kerbal Space Program is distributed under the license CC-BY-SA.
+Please read about the license at
+
+https://creativecommons.org/licenses/by-sa/2.0/
+
+before attempting to modify and distribute it.
+
+Code from Animated Decouplers by Starwaster used under:
+License: Released under Creative Commons Share-alike attribution license
+http://creativecommons.org/licenses/by-sa/4.0/
