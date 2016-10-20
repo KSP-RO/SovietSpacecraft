@@ -2,7 +2,7 @@ ship = RN Stock Zond 7K-L1
 version = 1.2.0
 description = 
 type = VAB
-size = 6.42878437,48.5775223,5.96006584
+size = 6.42878437,48.5775261,5.96006584
 PART
 {
 	part = rn.zond.sa_4291061114
@@ -1060,7 +1060,7 @@ PART
 		{
 			DecoupleAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -1081,7 +1081,7 @@ PART
 		{
 			JettisonAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -2478,7 +2478,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 7
-	sidx = 1
+	sidx = 0
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -2510,7 +2510,7 @@ PART
 		{
 			DecoupleAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -2544,7 +2544,7 @@ PART
 			}
 			ActivateAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -2580,7 +2580,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 7
-	sidx = 1
+	sidx = 0
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -2612,7 +2612,7 @@ PART
 		{
 			DecoupleAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -2646,7 +2646,7 @@ PART
 			}
 			ActivateAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -2682,7 +2682,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 1
-	sidx = 0
+	sidx = 1
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -5474,8 +5474,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.833454311
-		height = 2.10297012
+		scaleFactor = 0.833453953
+		height = 2.10296774
 		stagingEnabled = True
 		towerRot = -0.000404452119,-0.707106769,-0.000404452148,-0.70710665
 		EVENTS
@@ -5583,8 +5583,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.833454311
-		height = 2.10297012
+		scaleFactor = 0.833453894
+		height = 2.1029675
 		stagingEnabled = True
 		towerRot = -0.000552491867,-0.258819103,-0.000148039762,-0.965925694
 		EVENTS
@@ -5692,8 +5692,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.833454311
-		height = 2.10297012
+		scaleFactor = 0.833453894
+		height = 2.1029675
 		stagingEnabled = True
 		towerRot = -0.000552491925,0.258818984,0.000148039762,-0.965925753
 		EVENTS
@@ -5801,8 +5801,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.833454311
-		height = 2.10297012
+		scaleFactor = 0.833453953
+		height = 2.10296774
 		stagingEnabled = True
 		towerRot = -0.000404452119,0.707106709,0.000404452148,-0.707106709
 		EVENTS
@@ -5910,8 +5910,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.833454311
-		height = 2.10297012
+		scaleFactor = 0.833453894
+		height = 2.1029675
 		stagingEnabled = True
 		towerRot = -0.000148039748,0.965925753,0.000552491925,-0.258819044
 		EVENTS
@@ -6019,8 +6019,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.833454311
-		height = 2.10297012
+		scaleFactor = 0.833453894
+		height = 2.1029675
 		stagingEnabled = True
 		towerRot = 0.000148039704,0.965925753,0.000552491925,0.258818895
 		EVENTS

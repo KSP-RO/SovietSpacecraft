@@ -2,7 +2,7 @@ ship = RN Stock Soyuz ASTP
 version = 1.2.0
 description = 
 type = VAB
-size = 8.16731071,40.2556114,8.1673317
+size = 8.16731071,40.2556114,8.16733265
 PART
 {
 	part = ok.sa_4291911012
@@ -1047,7 +1047,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 3
 	sepI = 3
 	attm = 0
@@ -1355,9 +1355,9 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (0.707106829, 5.33866746E-08, 0.707106829, -5.33866746E-08)
+		currentRotation = (0.707106829, 9.41569667E-08, 0.707106829, -9.41569667E-08)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1423,9 +1423,9 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (0.707106829, 1.37680388E-07, 0.707106829, -1.37680388E-07)
+		currentRotation = (0.707106829, 9.41569667E-08, 0.707106829, -9.41569667E-08)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1468,7 +1468,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 0
-	sidx = 0
+	sidx = 1
 	sqor = 3
 	sepI = 3
 	attm = 0
@@ -1739,7 +1739,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 1
-	sidx = 0
+	sidx = 1
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -4282,10 +4282,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293554318
 	partName = Part
-	pos = -2.80181956,1.28676033,0.437730968
+	pos = -2.80182004,1.28676033,0.437731206
 	attPos = 0,0,0
 	attPos0 = 0.437581182,-0.691699922,1.64316368
-	rot = -4.70906408E-14,-1.21744985E-19,0,-1.00000012
+	rot = -4.70906341E-14,-1.21744972E-19,0,-1
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -4457,10 +4457,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293551578
 	partName = Part
-	pos = -2.8018198,1.28676033,-0.434538543
+	pos = -2.80182028,1.28676033,-0.434538662
 	attPos = 0,0,0
 	attPos0 = -0.434683323,-0.691699922,1.64316368
-	rot = -4.70906408E-14,-1.21744985E-19,0,-1.00000012
+	rot = -4.70906341E-14,-1.21744972E-19,0,-1
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -4743,8 +4743,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.828270495
-		height = 2.08988953
+		scaleFactor = 0.828270078
+		height = 2.08988857
 		stagingEnabled = True
 		towerRot = 0.0218254626,0.706769943,-0.0218254644,-0.706769884
 		EVENTS
@@ -4983,7 +4983,7 @@ PART
 	pos = -0.000130623579,1.97846031,1.15866446
 	attPos = 0,0,0
 	attPos0 = -0.335340202,-10.5033617,0
-	rot = 0,0,0,-1.00000012
+	rot = 0,0,0,-1
 	attRot = 0,-0.707106769,0,0.707106769
 	attRot0 = -1.82810675E-06,-0.707106829,-1.82810652E-06,0.707106829
 	mir = 1,1,1
@@ -5158,10 +5158,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293552434
 	partName = Part
-	pos = 0.4374533,1.28676033,2.80184269
+	pos = 0.437453538,1.28676033,2.80184412
 	attPos = 0,0,0
 	attPos0 = 0.437581509,-0.691699922,1.64316428
-	rot = 0,-0.707106888,0,-0.707106888
+	rot = 0,-0.707106829,0,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -5333,10 +5333,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293551264
 	partName = Part
-	pos = -0.434817106,1.28676033,2.80184126
+	pos = -0.434817344,1.28676033,2.80184245
 	attPos = 0,0,0
 	attPos0 = -0.434683532,-0.691699922,1.64316428
-	rot = 0,-0.707106888,0,-0.707106888
+	rot = 0,-0.707106829,0,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -5508,7 +5508,7 @@ PART
 {
 	part = rn.WING.R7_4293547718
 	partName = Part
-	pos = -0.000130414963,2.04025078,3.19707537
+	pos = -0.000130414963,2.04025078,3.19707584
 	attPos = 0,0,0
 	attPos0 = -2.37374187,-10.4415607,0
 	rot = 0,-0.707106829,0,-0.707106829
@@ -5582,10 +5582,10 @@ PART
 {
 	part = launchClamp1_4293529800
 	partName = Part
-	pos = -0.000129938126,1.37348747,3.9605937
+	pos = -0.000129938126,1.37348747,3.96059465
 	attPos = 0,0,0
 	attPos0 = -3.13725662,-11.1083202,2.3841848E-07
-	rot = -3.06272341E-10,-0.99952364,0.0308658686,0
+	rot = -3.06272313E-10,-0.99952352,0.0308658648,0
 	attRot = 0,0,0,1
 	attRot0 = 0.0218272917,0.706769824,-0.0218272917,0.706769824
 	mir = 1,1,1
@@ -5619,10 +5619,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.828270495
-		height = 2.08988953
+		scaleFactor = 0.828270078
+		height = 2.08988857
 		stagingEnabled = True
-		towerRot = 0,0.99952352,-0.0308658667,0
+		towerRot = 3.06272313E-10,0.99952352,-0.0308658648,0
 		EVENTS
 		{
 		}
@@ -5859,7 +5859,7 @@ PART
 	pos = 1.1583854,1.97846031,0.000147201121
 	attPos = 0,0,0
 	attPos0 = -0.335340142,-10.5033617,-9.75046888E-09
-	rot = 1.25055521E-12,-0.707106888,0,-0.707106769
+	rot = 1.36424205E-12,-0.707106888,0,-0.707106769
 	attRot = 0,-0.707106769,0,0.707106769
 	attRot0 = -1.82810675E-06,-0.707106829,-1.82810663E-06,0.707106829
 	mir = 1,1,1
@@ -6034,10 +6034,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293552306
 	partName = Part
-	pos = 2.80155921,1.28676033,-0.43743366
+	pos = 2.80155969,1.28676033,-0.437433898
 	attPos = 0,0,0
 	attPos0 = 0.437581182,-0.691699922,1.64316368
-	rot = 6.82121026E-13,-1.00000012,6.15524775E-13,4.37113918E-08
+	rot = 6.82120972E-13,-1,6.15524721E-13,4.37113883E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,7.41887901E-14,0.707106829
 	mir = 1,1,1
@@ -6209,10 +6209,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293551130
 	partName = Part
-	pos = 2.80155849,1.28676033,0.434835851
+	pos = 2.80155897,1.28676033,0.43483597
 	attPos = 0,0,0
 	attPos0 = -0.434683323,-0.691699922,1.64316368
-	rot = 6.82121026E-13,-1.00000012,6.15524775E-13,4.37113918E-08
+	rot = 6.82120972E-13,-1,6.15524721E-13,4.37113883E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,7.41887901E-14,0.707106829
 	mir = 1,1,1
@@ -6495,8 +6495,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.828270495
-		height = 2.08988953
+		scaleFactor = 0.828270078
+		height = 2.08988857
 		stagingEnabled = True
 		towerRot = -0.0218254663,0.706769824,-0.0218254607,0.706769943
 		EVENTS
@@ -6735,7 +6735,7 @@ PART
 	pos = -0.000130722299,1.97846031,-1.15836978
 	attPos = 0,0,0
 	attPos0 = -0.335340202,-10.5033617,0
-	rot = -1.13686838E-13,-1.00000012,1.13686838E-13,0
+	rot = -1.13686824E-13,-1,1.13686824E-13,0
 	attRot = 0,-0.707106769,0,0.707106769
 	attRot0 = -1.82810675E-06,-0.707106829,-1.82810652E-06,0.707106829
 	mir = 1,1,1
@@ -6910,10 +6910,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293552178
 	partName = Part
-	pos = -0.437712312,1.28676033,-2.80154753
+	pos = -0.43771255,1.28676033,-2.80154872
 	attPos = 0,0,0
 	attPos0 = 0.437581509,-0.691699922,1.64316428
-	rot = 0,-0.707106888,0,0.707106888
+	rot = 0,-0.707106829,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -7085,10 +7085,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293550996
 	partName = Part
-	pos = 0.434557617,1.28676033,-2.801548
+	pos = 0.434557855,1.28676033,-2.80154943
 	attPos = 0,0,0
 	attPos0 = -0.434683532,-0.691699922,1.64316428
-	rot = 0,-0.707106888,0,0.707106888
+	rot = 0,-0.707106829,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -7260,7 +7260,7 @@ PART
 {
 	part = rn.WING.R7_4293547614
 	partName = Part
-	pos = -0.000130513683,2.04025078,-3.19678068
+	pos = -0.000130513683,2.04025078,-3.19678116
 	attPos = 0,0,0
 	attPos0 = -2.37374187,-10.4415607,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -7334,10 +7334,10 @@ PART
 {
 	part = launchClamp1_4293529560
 	partName = Part
-	pos = -0.000130513683,1.37348747,-3.96029902
+	pos = -0.000130513683,1.37348747,-3.96029997
 	attPos = 0,0,0
 	attPos0 = -3.13725662,-11.1083202,2.3841848E-07
-	rot = 0.0308658704,8.94069672E-08,-1.13686838E-13,0.99952364
+	rot = 0.0308658667,8.94069601E-08,-1.13686824E-13,0.99952352
 	attRot = 0,0,0,1
 	attRot0 = 0.0218272917,0.706769884,-0.0218272917,0.706769824
 	mir = 1,1,1
@@ -7371,10 +7371,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.828270495
-		height = 2.08988953
+		scaleFactor = 0.828270078
+		height = 2.08988857
 		stagingEnabled = True
-		towerRot = -0.0308658667,-8.94069601E-08,0,0.99952352
+		towerRot = -0.0308658667,-8.94069601E-08,1.13686824E-13,0.99952352
 		EVENTS
 		{
 		}
@@ -7454,7 +7454,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 5
-	sidx = 1
+	sidx = 0
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -7486,7 +7486,7 @@ PART
 		{
 			DecoupleAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -7520,7 +7520,7 @@ PART
 			}
 			ActivateAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -7574,7 +7574,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 5
-	sidx = 1
+	sidx = 0
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -7606,7 +7606,7 @@ PART
 		{
 			DecoupleAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
@@ -7640,7 +7640,7 @@ PART
 			}
 			ActivateAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 		UPGRADESAPPLIED
