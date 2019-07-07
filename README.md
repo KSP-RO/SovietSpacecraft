@@ -23,10 +23,6 @@ This pack is a soviet era spacecraft mod that contains the Soyuz 7K-T, 7K-OKA, 7
 
 * Unzip into your main KSP folder, overwrite if you have kosmos or module manager already installed.
 
-* Install dependencies for KSP 1.2.x from here: https://www.dropbox.com/s/paqjbizbmxfhdqc/RN_Dependencies_KSP_v1.2.x.zip?dl=0
-
-* Install dependencies for KSP 1.3.x from here: https://www.dropbox.com/s/7yly4uu89bixvcl/RN_Dependencies_KSP_v1.3.x.zip?dl=0
-
 ##SOYUZ NOTES:
 
 * This pack now contains the Soyuz 7K-T, 7K-OKA, 7K-LOK, 7K-LK, 7K-OKP, 7K-T-AF and Progress 7K-TG spacecrafts.
